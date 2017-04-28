@@ -1,0 +1,7 @@
+Importante:
+
+Durante a transição é importante limpar, no mainController, lançar o seguinte:
+
+$transitions.onStart({}, function ($transition$) {
+  itsGallery.clear();
+});
